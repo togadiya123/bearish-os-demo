@@ -1,0 +1,30 @@
+.container {
+    justify-content: space-between;
+}
+
+.container, .box {
+    flex-direction: row;
+}
+
+.box {
+    gap: 10px
+}
+
+.toggleButton{
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.imageContainer {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonText{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
